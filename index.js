@@ -1,5 +1,7 @@
 let express = require('express')
 
+const cors = require('cors')
+
 let app = express(); // initialization for express server.
 
 //importing middlewares.
@@ -14,6 +16,7 @@ let Scanner = require('./controllers/scanner.js')
 app.use(RequestLogger.index)
 app.use(express.json())
 app.use(express.text())
+app.use(cors())
 
 // defining routes.
 app.post('/api/scan', Scanner.index)

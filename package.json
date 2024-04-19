@@ -1,0 +1,28 @@
+{
+  "name": "goodwriter-api",
+  "version": "1.0.0",
+  "description": "GoodWriter, good spelling check and good writing techniques and corrections.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "spelling",
+    "checker",
+    "grammer",
+    "writing-mistakes",
+    "grammer-checks"
+  ],
+  "author": "Rodan0x1 (Omar Mohamed)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "natural": "^7.0.5",
+    "nodehun": "^3.0.2",
+    "nodemon": "^3.1.0",
+    "spellchecker": "^3.7.1",
+    "spelling": "^2.0.2",
+    "spelling-corrector": "^3.0.0"
+  }
+}
